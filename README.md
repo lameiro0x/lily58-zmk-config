@@ -27,12 +27,13 @@ This repository allows you to:
 ├── config/
 │   ├── lily58.conf        # General ZMK configuration (Bluetooth, display, power)
 │   ├── lily58.keymap     # Keymap, layers, encoders
-│   └── build.yaml        # Build matrix for GitHub Actions
+│   └── west.yml
 │
 ├── .github/
 │   └── workflows/
 │       └── build.yml     # CI workflow that builds the firmware
 │
+├── build.yaml            # Build matrix for GitHub Actions
 └── README.md             # Documentation
 ```
 
